@@ -1,4 +1,4 @@
-ciphertext = str(input('Cipher text: '))
+ciphertext = str(input(' Cipher text: '))
 letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 
