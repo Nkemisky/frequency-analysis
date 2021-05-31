@@ -10,3 +10,11 @@ def LetterFrequency():
     return LetterFrequency
 
 print(LetterFrequency())
+
+r1 = input('')
+r2 = input('')
+
+def substitute():
+    for text in ciphertext:
+        if text in r1:
+        
