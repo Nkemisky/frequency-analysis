@@ -9,18 +9,13 @@ def LetterFrequency():
             LetterFrequency[letter]+=1
     return LetterFrequency
 
-print(LetterFrequency())
+print('Analysis:', LetterFrequency())
 
 r1 = str(input('please enter replace rule: '))
 r2 = str(input('replace with: '))
 
-
 for text in ciphertext:
-    if text in ciphertext:
+    if text in letters:
         newstring = ciphertext.replace(r1, r2)
-    
-
-
-        
-
+print('Plaintext: ', newstring)
 
