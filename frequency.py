@@ -11,10 +11,16 @@ def LetterFrequency():
 
 print(LetterFrequency())
 
-r1 = input('')
-r2 = input('')
+r1 = str(input('please enter replace rule: '))
+r2 = str(input('replace with: '))
 
-def substitute():
-    for text in ciphertext:
-        if text in r1:
+
+for text in ciphertext:
+    if text in ciphertext:
+        newstring = ciphertext.replace(r1, r2)
+    
+
+
         
+
+
